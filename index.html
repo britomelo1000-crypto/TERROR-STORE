@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terror Store - Servicios de Diseño y Edición Pro</title>
+  <meta name="description" content="Terror Store - Intros 3D, Overlays para Stream, Edición de Video Pro, Logos y Optimización de PC. Lleva tu contenido al siguiente nivel.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo" data-aos="fade-right">
+        <i class="fas fa-skull"></i>
+        <span class="logo-text">TERROR <span class="logo-accent">STORE</span></span>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#portafolio" class="nav-link">Portafolio</a></li>
+        <li><a href="#precios" class="nav-link">Precios</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li><a href="#" class="nav-link cart-link" id="cartLink">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="glitch" data-text="TERROR STORE">TERROR STORE</h1>
+        <p class="hero-subtitle">Lleva tu contenido al siguiente nivel</p>
+        <p class="hero-description">Diseño profesional, edición de video de élite y optimización de PC para gamers y creadores de contenido</p>
+        <div class="hero-buttons">
+          <a href="https://wa.me/18298190304" target="_blank" class="btn btn-primary">
+            <i class="fab fa-whatsapp"></i> Contactar Ahora
+          </a>
+          <a href="#servicios" class="btn btn-secondary">
+            <i class="fas fa-arrow-down"></i> Ver Servicios
+          </a>
+        </div>
+      </div>
+      <div class="hero-stats" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-item">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Proyectos</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Satisfacción</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Soporte</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Nuestros <span class="highlight">Servicios</span></h2>
+        <p class="section-subtitle">Servicios profesionales para llevar tu marca al siguiente nivel</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">
+            <i class="fas fa-film"></i>
+          </div>
+          <h3 class="service-title">Intros 3D Personalizadas</h3>
+          <p class="service-description">Animaciones de intro 3D impactantes para YouTubers y Streamers. Dale a tu canal ese toque profesional que marca la diferencia.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Diseño único y personalizado</li>
+            <li><i class="fas fa-check"></i> Animaciones fluidas 60 FPS</li>
+            <li><i class="fas fa-check"></i> Entrega en 3-5 días</li>
+            <li><i class="fas fa-check"></i> Revisiones ilimitadas</li>
+          </ul>
+          <button class="service-btn add-to-cart-btn" data-service="Intros 3D Personalizadas" data-price="A cotizar" data-icon="fa-film">
+            <i class="fas fa-shopping-cart"></i> Agregar al Carrito
+          </button>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <h3 class="service-title">Overlays para Stream</h3>
+          <p class="service-description">Paquetes completos de overlays para Twitch y YouTube Gaming. Diseños únicos que harán destacar tu stream de la competencia.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Paquete completo de overlays</li>
+            <li><i class="fas fa-check"></i> Alertas animadas</li>
+            <li><i class="fas fa-check"></i> Panels y banners</li>
+            <li><i class="fas fa-check"></i> Compatible con OBS/Streamlabs</li>
+          </ul>
+          <button class="service-btn add-to-cart-btn" data-service="Overlays para Stream" data-price="A cotizar" data-icon="fa-gamepad">
+            <i class="fas fa-shopping-cart"></i> Agregar al Carrito
+          </button>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3 class="service-title">Edición de Video Pro</h3>
+          <p class="service-description">Edición profesional de videos con efectos, transiciones y color grading de nivel cinematográfico. Tu contenido merece lo mejor.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Efectos y transiciones pro</li>
+            <li><i class="fas fa-check"></i> Color grading profesional</li>
+            <li><i class="fas fa-check"></i> Corrección de audio</li>
+            <li><i class="fas fa-check"></i> Subtítulos y gráficos</li>
+          </ul>
+          <button class="service-btn add-to-cart-btn" data-service="Edición de Video Pro" data-price="A cotizar" data-icon="fa-video">
+            <i class="fas fa-shopping-cart"></i> Agregar al Carrito
+          </button>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3 class="service-title">Edición de Logos y Fotos</h3>
+          <p class="service-description">Diseño y edición de logos, banners, miniaturas y fotos profesionales. Tu marca visual en manos expertas.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Logos únicos y memorables</li>
+            <li><i class="fas fa-check"></i> Banners para redes sociales</li>
+            <li><i class="fas fa-check"></i> Miniaturas llamativas</li>
+            <li><i class="fas fa-check"></i> Retoque fotográfico pro</li>
+          </ul>
+          <button class="service-btn add-to-cart-btn" data-service="Edición de Logos y Fotos" data-price="A cotizar" data-icon="fa-palette">
+            <i class="fas fa-shopping-cart"></i> Agregar al Carrito
+          </button>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h3 class="service-title">Optimización para PC</h3>
+          <p class="service-description">Optimización completa de PC para gaming y rendimiento máximo. Exprime cada FPS de tu equipo y dile adiós al lag.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Optimización de Windows</li>
+            <li><i class="fas fa-check"></i> Ajustes de GPU/CPU</li>
+            <li><i class="fas fa-check"></i> Limpieza profunda</li>
+            <li><i class="fas fa-check"></i> Máximo rendimiento gaming</li>
+          </ul>
+          <button class="service-btn add-to-cart-btn" data-service="Optimización para PC" data-price="A cotizar" data-icon="fa-laptop">
+            <i class="fas fa-shopping-cart"></i> Agregar al Carrito
+          </button>
+        </div>
+
+        <div class="service-card service-card-special" data-aos="fade-up" data-aos-delay="600">
+          <div class="special-badge">POPULAR</div>
+          <div class="service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="service-title">Paquete Completo</h3>
+          <p class="service-description">¡Obtén todos nuestros servicios con un descuento especial! La solución todo-en-uno para creadores de contenido profesionales.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Todos los servicios incluidos</li>
+            <li><i class="fas fa-check"></i> 30% de descuento</li>
+            <li><i class="fas fa-check"></i> Prioridad en entregas</li>
+            <li><i class="fas fa-check"></i> Soporte VIP 24/7</li>
+          </ul>
+          <button class="service-btn add-to-cart-btn" data-service="Paquete Completo" data-price="30% Descuento" data-icon="fa-rocket">
+            <i class="fas fa-shopping-cart"></i> Agregar al Carrito
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-us">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">¿Por qué <span class="highlight">Terror Store?</span></h2>
+        <p class="section-subtitle">La diferencia que nos hace únicos en el mercado</p>
+      </div>
+      <div class="why-us-grid">
+        <div class="why-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="why-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3>Calidad Profesional</h3>
+          <p>Trabajamos con las mejores herramientas del mercado y años de experiencia para garantizar resultados de élite.</p>
+        </div>
+        <div class="why-card" data-aos="fade-right" data-aos-delay="200">
+          <div class="why-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Entregas Rápidas</h3>
+          <p>Cumplimos con los plazos de entrega sin comprometer la calidad. Tu tiempo es valioso y lo respetamos.</p>
+        </div>
+        <div class="why-card" data-aos="fade-right" data-aos-delay="300">
+          <div class="why-icon">
+            <i class="fas fa-redo"></i>
+          </div>
+          <h3>Revisiones Ilimitadas</h3>
+          <p>No paramos hasta que estés 100% satisfecho. Tu visión es nuestra misión.</p>
+        </div>
+        <div class="why-card" data-aos="fade-right" data-aos-delay="400">
+          <div class="why-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Soporte 24/7</h3>
+          <p>Estamos disponibles cuando nos necesites. Respuestas rápidas y soporte personalizado siempre.</p>
+        </div>
+        <div class="why-card" data-aos="fade-right" data-aos-delay="500">
+          <div class="why-icon">
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+          <h3>Precios Justos</h3>
+          <p>Calidad profesional a precios competitivos. Obtén más por tu dinero sin sacrificar resultados.</p>
+        </div>
+        <div class="why-card" data-aos="fade-right" data-aos-delay="600">
+          <div class="why-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Garantía Total</h3>
+          <p>Satisfacción garantizada o te devolvemos tu dinero. Sin letra pequeña, sin complicaciones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portafolio">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Nuestro <span class="highlight">Portafolio</span></h2>
+        <p class="section-subtitle">Conoce nuestros servicios y lo que ofrecemos</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+          <div class="portfolio-image">
+            <img src="https://sspark.genspark.ai/cfimages?u1=iQv6h%2B7kY9legZGin01KU4D%2FTyED9xJaZI94CnW89sxZm5irFD3t%2BDtvTQW1DQSpxTILQnNS6j%2BsbkUz3YLloINTMxFpvPQCni0cboVXaCY3ItlRR8hoMcwWoztW%2Bsh1YnhPFev29CDbz8EY%2FIx0dxodoOXyPZB8B0speRpor%2FFscWCqNv9PcAQn%2B8iFmjn282iKRUBp3cg5KI%2F9mLxHdrfPY8fc7eL98uFLEH4SbZInZTYqKybKsggFQ2rBmdgDOadXDnmDnuGVrt4mAyp8WYpuQO%2BUSRGjst1GHfuzhUNZF0%2B%2BxCJgU5AeHLfoeSFju8zJBAaV8ZGdcYU3VYSz5TQ7&u2=3kTTyl9s13sQ1zZZ&width=2560" alt="Intro 3D">
+            <div class="portfolio-overlay">
+              <i class="fas fa-film"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>🎬 Intros 3D Personalizadas</h3>
+            <p><strong>¿Qué incluye?</strong> Animaciones 3D profesionales con tu nombre/logo, efectos visuales impactantes, música de fondo y renderizado en alta calidad (1080p/4K).</p>
+            <p><strong>Para qué sirve:</strong> Dale identidad a tu canal de YouTube, Twitch o redes sociales con una intro que capture la atención desde el primer segundo.</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+          <div class="portfolio-image">
+            <img src="https://sspark.genspark.ai/cfimages?u1=z4VqLgEnajvSZJbXevjv789GbnxafAHJ55eAsEA%2BNCzoRTwaq159b%2Bab%2Fey%2BPvKFlETS3vnVrLYOilkEWndZCWmrhrCdLkFJnpNthLee1gwsxFLHpGBRCYogwvrLwsrkELh%2FSdrd&u2=PrU8MIngcm287pnz&width=2560" alt="Overlay Stream">
+            <div class="portfolio-overlay">
+              <i class="fas fa-gamepad"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>🎮 Overlays para Stream</h3>
+            <p><strong>¿Qué incluye?</strong> Paquete completo con overlay principal, alertas animadas, pantallas de descanso, paneles para Twitch/YouTube y widgets personalizados.</p>
+            <p><strong>Para qué sirve:</strong> Profesionaliza tu stream y destaca entre miles de streamers con un diseño único y cohesivo que refleje tu personalidad.</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+          <div class="portfolio-image">
+            <img src="https://sspark.genspark.ai/cfimages?u1=pVKjY75zmZXusTYUTB8X67i9Ip%2F952lJgSCB9YBTDkGl0cBPQL3h%2FvZIqOgkMNlxOxay7Seqm4O9zlO8qPk36EPSll65A6qDohvrO3NVDPC7M3coBAt2XERKNtM54%2F2H6EWpld9EuaM%2BPzR4Sw%3D%3D&u2=1UucoL%2FyFqjtICAr&width=2560" alt="Edición Video">
+            <div class="portfolio-overlay">
+              <i class="fas fa-video"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>🎞️ Edición de Video Pro</h3>
+            <p><strong>¿Qué incluye?</strong> Cortes profesionales, transiciones fluidas, efectos visuales y de sonido, corrección de color (color grading), subtítulos y motion graphics.</p>
+            <p><strong>Para qué sirve:</strong> Transforma tu contenido en videos de calidad cinematográfica que mantengan a tu audiencia enganchada de inicio a fin.</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="400">
+          <div class="portfolio-image">
+            <img src="https://sspark.genspark.ai/cfimages?u1=PRxyyV9q4NqfFIdiPM25iA8PfYbVygtbtxCuCtFHVYF3wAkVRKl3t51s0ot7%2F66ZNilC8A2Tv6OhAJa5EOqBK%2BxqQHf4NAtraKrzPsTb1lp3byRe9Vd3AXDiVRbreIc6SHmRchnNOAmTdGWdFYiFJJ3Poi0U6g%2FJfecwuW7A%2B7iL&u2=J15TVfIRu0ysDv9r&width=2560" alt="Logo Design">
+            <div class="portfolio-overlay">
+              <i class="fas fa-palette"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>🎨 Edición de Logos y Fotos</h3>
+            <p><strong>¿Qué incluye?</strong> Diseño de logos profesionales, banners para redes sociales, miniaturas para YouTube, edición y retoque fotográfico, y branding completo.</p>
+            <p><strong>Para qué sirve:</strong> Construye una identidad visual fuerte y reconocible que haga que tu marca destaque y sea memorable.</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="500">
+          <div class="portfolio-image">
+            <img src="https://sspark.genspark.ai/cfimages?u1=5FGibZCofjWNra%2Fz%2F6BhHf2Ez7y%2B4MOuaOxwCPbw2BYBPcP4yxcj8Hdmnmuh1%2FIXNAI%2Bfu16xu%2FbaDtZRZJK%2Blf6dRnV0Xn15UiuUvlikifSViOpMZZfTYlNAIT6%2BBb0v1arEqJY9mPpgXqh0TJRfpJYgCPPDE77PlrgSHxm1eDkr1B1YHEnYOaq1FkAZN%2Bqxr8lb5ITU6g6&u2=J15TVfIRu0ysDv9r&width=2560" alt="Banner YouTube">
+            <div class="portfolio-overlay">
+              <i class="fas fa-image"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>🖼️ Banners y Headers</h3>
+            <p><strong>¿Qué incluye?</strong> Diseños personalizados para YouTube, Twitch, Twitter, Discord y otras plataformas, optimizados para cada formato y dispositivo.</p>
+            <p><strong>Para qué sirve:</strong> Mantén consistencia visual en todas tus plataformas y causa una primera impresión profesional e impactante.</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="600">
+          <div class="portfolio-image">
+            <img src="https://sspark.genspark.ai/cfimages?u1=eOHoMugVyr9AEVMtYRXyO3UZ8TArX9UD7hHoskstXAoWzEuZgDH4w6kBvplJeHojEnsjuIbeArbrwiKLIwLt6D7bZ7AUL7xhA4%2BmlUwE0I1HQKyNkfEl4QZJOdvXw79hVo4t64oD1L7UBDRre0JMN1ix%2Br3Ncy83NzQnuAQBZQ6esx2gzMsLpMnAlyoFmzhKIU%2FImKfZWIeHSFls95Z1GsKyvUdQw1eQ%2BK3q6jYz98AFWCXK44S0VBPSpnjHbvmlLgqafQEI7YNqOw%3D%3D&u2=NRQVDoKReGrLmbld&width=2560" alt="Optimización PC">
+            <div class="portfolio-overlay">
+              <i class="fas fa-laptop"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>💻 Optimización para PC</h3>
+            <p><strong>¿Qué incluye?</strong> Limpieza profunda del sistema, optimización de Windows, ajustes de GPU/CPU, desactivación de procesos innecesarios y configuración para máximo rendimiento.</p>
+            <p><strong>Para qué sirve:</strong> Exprime al máximo tu PC para gaming o streaming, elimina lag, aumenta FPS y mejora el rendimiento general hasta un 80%.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing" id="precios">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Planes y <span class="highlight">Precios</span></h2>
+        <p class="section-subtitle">Elige el plan perfecto para tu proyecto</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-header">
+            <h3>Básico</h3>
+            <div class="price">Desde <span>$15</span></div>
+            <p>Ideal para empezar</p>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> 1 Servicio a elección</li>
+            <li><i class="fas fa-check"></i> 2 Revisiones</li>
+            <li><i class="fas fa-check"></i> Entrega en 5-7 días</li>
+            <li><i class="fas fa-check"></i> Soporte por WhatsApp</li>
+            <li class="disabled"><i class="fas fa-times"></i> Prioridad en entregas</li>
+            <li class="disabled"><i class="fas fa-times"></i> Archivos fuente</li>
+          </ul>
+          <a href="https://wa.me/18298190304?text=Hola!%20Quiero%20cotizar%20el%20Plan%20Básico" class="pricing-btn">Solicitar Cotización</a>
+        </div>
+
+        <div class="pricing-card pricing-featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="featured-badge">MÁS POPULAR</div>
+          <div class="pricing-header">
+            <h3>Profesional</h3>
+            <div class="price">Desde <span>$40</span></div>
+            <p>Para creadores serios</p>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> 3 Servicios a elección</li>
+            <li><i class="fas fa-check"></i> Revisiones ilimitadas</li>
+            <li><i class="fas fa-check"></i> Entrega en 3-5 días</li>
+            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+            <li><i class="fas fa-check"></i> Prioridad en entregas</li>
+            <li><i class="fas fa-check"></i> Archivos fuente incluidos</li>
+          </ul>
+          <a href="https://wa.me/18298190304?text=Hola!%20Quiero%20cotizar%20el%20Plan%20Profesional" class="pricing-btn">Solicitar Cotización</a>
+        </div>
+
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="pricing-header">
+            <h3>Elite</h3>
+            <div class="price">Desde <span>$70</span></div>
+            <p>Todo incluido</p>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> TODOS los servicios</li>
+            <li><i class="fas fa-check"></i> Revisiones ilimitadas</li>
+            <li><i class="fas fa-check"></i> Entrega express 24-48h</li>
+            <li><i class="fas fa-check"></i> Soporte VIP 24/7</li>
+            <li><i class="fas fa-check"></i> Máxima prioridad</li>
+            <li><i class="fas fa-check"></i> Todo + Actualizaciones gratis</li>
+          </ul>
+          <a href="https://wa.me/18298190304?text=Hola!%20Quiero%20cotizar%20el%20Plan%20Elite" class="pricing-btn">Solicitar Cotización</a>
+        </div>
+      </div>
+      <div class="pricing-note" data-aos="fade-up" data-aos-delay="400">
+        <i class="fas fa-info-circle"></i>
+        <p>Los precios varían según la complejidad del proyecto. Contáctanos para una cotización personalizada.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Ponte en <span class="highlight">Contacto</span></h2>
+        <p class="section-subtitle">Estamos listos para hacer realidad tu proyecto</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>¡Hablemos de tu proyecto!</h3>
+          <p>Estamos disponibles 24/7 para responder tus preguntas y brindarte una cotización personalizada sin compromiso.</p>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="method-info">
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/18298190304" target="_blank">+1 829 819 0304</a>
+                <p>Respuesta inmediata</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="method-info">
+                <h4>Teléfono</h4>
+                <a href="tel:+18298190304">+1 829 819 0304</a>
+                <p>Llámanos directamente</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="method-info">
+                <h4>Horario</h4>
+                <p>24/7 Disponible</p>
+                <p>Siempre activos</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://wa.me/18298190304" target="_blank" class="social-link whatsapp-link">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/terror.mlx1/" target="_blank" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <h3>Envíanos un mensaje</h3>
+            <div class="form-group">
+              <label for="name">
+                <i class="fas fa-user"></i> Nombre Completo
+              </label>
+              <input type="text" id="name" name="name" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="service">
+                <i class="fas fa-briefcase"></i> Servicio de Interés
+              </label>
+              <select id="service" name="service" required>
+                <option value="">Selecciona un servicio</option>
+                <option value="intro-3d">Intros 3D Personalizadas</option>
+                <option value="overlay">Overlays para Stream</option>
+                <option value="video">Edición de Video Pro</option>
+                <option value="logo">Edición de Logos y Fotos</option>
+                <option value="pc">Optimización para PC</option>
+                <option value="paquete">Paquete Completo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">
+                <i class="fas fa-comment"></i> Mensaje
+              </label>
+              <textarea id="message" name="message" rows="5" required placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">
+              <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section" data-aos="fade-up">
+          <div class="footer-logo">
+            <i class="fas fa-skull"></i>
+            <span>TERROR <span class="logo-accent">STORE</span></span>
+          </div>
+          <p>Llevando tu contenido al siguiente nivel con diseño profesional y servicios de élite.</p>
+          <div class="footer-social">
+            <a href="https://wa.me/18298190304" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/terror.mlx1/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section" data-aos="fade-up" data-aos-delay="100">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Intros 3D</a></li>
+            <li><a href="#servicios">Overlays Stream</a></li>
+            <li><a href="#servicios">Edición Video</a></li>
+            <li><a href="#servicios">Logos y Fotos</a></li>
+            <li><a href="#servicios">Optimización PC</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section" data-aos="fade-up" data-aos-delay="300">
+          <h4>Contacto</h4>
+          <ul>
+            <li><i class="fab fa-whatsapp"></i> +1 829 819 0304</li>
+            <li><i class="fas fa-clock"></i> 24/7 Disponible</li>
+            <li><i class="fas fa-map-marker-alt"></i> República Dominicana</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Terror Store. Todos los derechos reservados.</p>
+        <p>Hecho con <i class="fas fa-heart"></i> para creadores de contenido</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shopping Cart Modal -->
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-modal-overlay" id="cartModalOverlay"></div>
+    <div class="cart-modal-content">
+      <div class="cart-modal-header">
+        <h2><i class="fas fa-shopping-cart"></i> Tu Carrito de Cotizaciones</h2>
+        <button class="cart-close" id="cartClose">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="cart-modal-body" id="cartModalBody">
+        <div class="empty-cart">
+          <i class="fas fa-shopping-bag"></i>
+          <p>Tu carrito está vacío</p>
+          <p class="empty-cart-text">Agrega servicios desde nuestra sección de servicios</p>
+        </div>
+      </div>
+      <div class="cart-modal-footer">
+        <div class="cart-total">
+          <span>Total de servicios:</span>
+          <span id="cartTotalCount">0</span>
+        </div>
+        <button class="btn btn-primary" id="checkoutBtn" style="display: none;">
+          <i class="fab fa-whatsapp"></i> Solicitar Cotización por WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/18298190304" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
